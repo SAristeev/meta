@@ -9,3 +9,6 @@ struct factorial<0>
 {
     static constexpr unsigned value = 1;
 };
+
+template<unsigned N>
+inline constexpr unsigned factorial_v = factorial<N>::value;
