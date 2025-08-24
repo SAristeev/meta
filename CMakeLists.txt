@@ -3,3 +3,4 @@ project(meta)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(2-simple)
+add_subdirectory(3-compile-and-run-time)
